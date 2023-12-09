@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMIT Task 1</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&family=Playfair+Display:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&family=Playfair+Display:ital,wght@1,500&family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&family=Playfair+Display:ital,wght@1,500&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <navbar>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="fancy-text">Gourmet au Catering</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="fancy-text">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="fancy-text">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="fancy-text">Contact</a>
+          </li>
+        </ul>
+      </navbar>
+      <div class="image-container" id="home">
+        <img
+          src="imgs/hamburger.jpg"
+          alt="Your Image"
+          width="1600"
+          height="800"
+        />
+        <div class="overlay-text">
+          <h1>Le Catering</h1>
+        </div>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="cont2">
+        <img class="img2" src="imgs/tablesetting2.jpg" alt="table" />
+        <div class="abt">
+          <h1>About Catering</h1>
+          <h3>Tradition since 1889</h3>
+          <p>
+            The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor
+            sit amet, consectetur adipiscing elit consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.We only use
+            <span class="bckgrd">seasonal</span> ingredients.
+          </p>
+          <p class="fade-txt">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum consectetur adipiscing
+            elit, sed do eiusmod temporincididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hor-rule" />
+
+    <section id="menu">
+      <div class="cont2">
+        <div class="abt">
+          <h1>Our Menu</h1>
+          <ul class="menu">
+            <li class="menu-item">
+              <div class="beeg-text">Bread Basket</div>
+              <div class="smol-text">
+                Assortment of fresh baked fruit breads and muffins 5.50
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="beeg-text">Honey Almond Granola with Fruits</div>
+              <div class="smol-text">
+                Natural cereal of honey toasted oats, raisins, almonds and dates
+                7.00
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="beeg-text">Belgian Waffle</div>
+              <div class="smol-text">
+                Vanilla flavored batter with malted flour 7.50
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="beeg-text">Scrambled eggs</div>
+              <div class="smol-text">
+                Scrambled eggs, roasted red pepper and garlic, with green onions
+                7.50
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="beeg-text">Blueberry Pancakes</div>
+              <div class="smol-text">
+                With syrup, butter and lots of berries 8.50
+              </div>
+            </li>
+          </ul>
+        </div>
+        <img class="img2" src="imgs/tablesetting.jpg" alt="table" />
+      </div>
+    </section>
+
+    <hr class="hor-rule" />
+
+    <section id="contact"></section>
+    <div class="cont3">
+      <div class="contact-info">
+        <h2>Contact</h2>
+        <p>
+          We offer full-service catering for any event, large or small. We
+          understand your needs and we will cater the food to satisfy the
+          biggerst criteria of them all, both look and taste. Do not hesitate to
+          contact us.
+        </p>
+        <h3>Catering Service, 42nd Living St, 43043 New York, NY</h3>
+        <p>
+          You can also contact us by phone 00553123-2323 or email
+          catering@catering.com, or you can send us a message here:
+        </p>
+      </div>
+      <div class="user-info">
+      <form>
+        <input  class="name" type="text" placeholder="Name" />
+        <input class="number" type="number" placeholder="How many people" />
+        
+          <input
+          class="date"
+            type="datetime-local"
+            placeholder="Date and time"
+            required
+            name="date"
+            value="2020-11-16T20:00"
+          />
+        
+        <input  class="msg" type="text" placeholder="Message \ Special requirements" />
+        <button class="btn" type="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+    <footer class="footer">
+      <p>Built by <a href="https://www.linkedin.com/in/amr-osama-453a59223/">Amr Osama</a></p>
+    </footer>
+  </body>
+</html>
